@@ -1,0 +1,333 @@
+[
+  {
+    "_id": "5b90be0ec2605efa0c9e4bbb",
+    "compositeId": "HxWmc9c0jJWpvaIe",
+    "tree": "5b90bd6cc2605e36b79e4bb5",
+    "path": null,
+    "name": "Facebook Get Started",
+    "app": "59bba4275a304100055da5bc",
+    "trigger": "5b90bdb9c2605e242b9e4bb8",
+    "responses": [
+      "5b90c2987df4f44a340457bb",
+      "5b90c59af3eea203ff6a6ac8",
+      "5bd92eecceccd50216b12211"
+    ],
+    "postActions": [
+      "5b90be0bc2605ece2e9e4bba"
+    ],
+    "createdAt": 1536212494619,
+    "updatedAt": 1536213669577
+  },
+  {
+    "_id": "5b90be27c2605ea8c09e4bbc",
+    "compositeId": "JPyOtauCyTsAdLaY",
+    "path": null,
+    "name": "Facebook Get Started Global",
+    "tree": "5b90bd6cc2605e36b79e4bb5",
+    "app": "59bba4275a304100055da5bc",
+    "global": true,
+    "trigger": "5b90bdb9c2605e242b9e4bb8",
+    "redirect": {
+      "tree": "5b90bd6cc2605e36b79e4bb5",
+      "nodeCompositeId": "HxWmc9c0jJWpvaIe",
+      "sendResponse": true,
+      "runPreAction": true,
+      "runPostAction": true
+    },
+    "createdAt": 1536212519009
+  },
+  {
+    "_id": "5b90bf7dc8b15d351f605d85",
+    "compositeId": "C4XsMdBib7R78ES1",
+    "tree": "5b90bf398e11f34a41377945",
+    "path": null,
+    "name": "Teamwork Inlet Get Started",
+    "app": "59bba4275a304100055da5bc",
+    "trigger": "5b90bdb9c2605e242b9e4bb8",
+    "responses": [
+      "5b90c2987df4f44a340457bb",
+      "5ba322ecfcc98d0c15b6673d"
+    ],
+    "postActions": [
+      "5b90be0bc2605ece2e9e4bba"
+    ],
+    "createdAt": 1536212861745,
+    "updatedAt": 1536213686569
+  },
+  {
+    "_id": "5b90bf9ec8b15d0a0d605d86",
+    "compositeId": "lbUjrEhSSpeSymdI",
+    "path": null,
+    "name": "Teamwork Inlet Get Started Global",
+    "tree": "5b90bf398e11f34a41377945",
+    "app": "59bba4275a304100055da5bc",
+    "global": true,
+    "trigger": "5b90bdb9c2605e242b9e4bb8",
+    "redirect": {
+      "tree": "5b90bf398e11f34a41377945",
+      "nodeCompositeId": "C4XsMdBib7R78ES1",
+      "sendResponse": true,
+      "runPreAction": true,
+      "runPostAction": true
+    },
+    "createdAt": 1536212894734
+  },
+  {
+    "_id": "5b90dd028827da8bd5b48baa",
+    "compositeId": "AvQdD8ENDl11g8f1",
+    "tree": "5b90bd6cc2605e36b79e4bb5",
+    "path": ",HxWmc9c0jJWpvaIe,",
+    "name": "Live Chat",
+    "app": "59bba4275a304100055da5bc",
+    "trigger": "5b90dc03c1088564051eca2d",
+    "responses": [
+      "5b90dc22c108850cd41eca2e"
+    ],
+    "postActions": [
+      "5b90dceec10885ae9b1eca2f"
+    ],
+    "createdAt": 1536220418209,
+    "analytics": {
+      "category": "Testing 4",
+      "action": "live chat 2",
+      "label": "hello",
+      "value": null
+    },
+    "updatedAt": 1541670742929
+  },
+  {
+    "_id": "5b90dd1a8827da1486b48bab",
+    "compositeId": "3m1HHtZe4uWgWkFo",
+    "path": null,
+    "name": "Live Chat Global",
+    "tree": "5b90bd6cc2605e36b79e4bb5",
+    "app": "59bba4275a304100055da5bc",
+    "global": true,
+    "trigger": "5b90dc03c1088564051eca2d",
+    "redirect": {
+      "tree": "5b90bd6cc2605e36b79e4bb5",
+      "nodeCompositeId": "AvQdD8ENDl11g8f1",
+      "sendResponse": true,
+      "runPreAction": true,
+      "runPostAction": true
+    },
+    "createdAt": 1536220442843
+  },
+  {
+    "_id": "5b90dfce27dbc6d7c15ab68f",
+    "compositeId": "bW6TLGY2zuofqfOk",
+    "tree": "5b90deed3fc50377378a5c21",
+    "path": null,
+    "name": "Done Command",
+    "app": "59bba4275a304100055da5bc",
+    "trigger": "5b90df6427dbc60d835ab68c",
+    "postActions": [
+      "5b90df8b963e0770990f213c",
+      "5b90df9a27dbc63f335ab68d",
+      "5b90dfc527dbc6360a5ab68e"
+    ],
+    "createdAt": 1536221134826
+  },
+  {
+    "_id": "5b90dfff963e0711e20f213d",
+    "compositeId": "623uQ8wM6dY9j1GK",
+    "path": null,
+    "name": "Done Command Global",
+    "tree": "5b90deed3fc50377378a5c21",
+    "app": "59bba4275a304100055da5bc",
+    "global": true,
+    "trigger": "5b90df6427dbc60d835ab68c",
+    "redirect": {
+      "tree": "5b90deed3fc50377378a5c21",
+      "nodeCompositeId": "bW6TLGY2zuofqfOk",
+      "sendResponse": true,
+      "runPreAction": true,
+      "runPostAction": true
+    },
+    "createdAt": 1536221183999
+  },
+  {
+    "_id": "5b90e7eb95ec341fc5779067",
+    "compositeId": "ieeSL1nb0lfi3Up4",
+    "tree": "5b90deed3fc50377378a5c21",
+    "path": ",bW6TLGY2zuofqfOk,",
+    "name": "Reassign Command",
+    "app": "59bba4275a304100055da5bc",
+    "trigger": "5b90e71a95ec348e47779064",
+    "postActions": [
+      "5b90e74c95ec346dde779065",
+      "5b90e79995ec344340779066",
+      "5b90dfc527dbc6360a5ab68e"
+    ],
+    "createdAt": 1536223211339
+  },
+  {
+    "_id": "5b90e80495ec345309779068",
+    "compositeId": "xrCoQEBpm1HsM3dq",
+    "path": null,
+    "name": "Reassign Command Global",
+    "tree": "5b90deed3fc50377378a5c21",
+    "app": "59bba4275a304100055da5bc",
+    "global": true,
+    "trigger": "5b90e71a95ec348e47779064",
+    "redirect": {
+      "tree": "5b90deed3fc50377378a5c21",
+      "nodeCompositeId": "ieeSL1nb0lfi3Up4",
+      "sendResponse": true,
+      "runPreAction": true,
+      "runPostAction": true
+    },
+    "createdAt": 1536223236820
+  },
+  {
+    "_id": "5b91dca5e93796febe8fa187",
+    "compositeId": "Q57MalrDXSQtqCkK",
+    "tree": "5b91dc36065c0a08040faee4",
+    "path": null,
+    "name": "Wechat Get Started",
+    "app": "59bba4275a304100055da5bc",
+    "trigger": "5b91dc96e9379655f38fa186",
+    "responses": [
+      "5b90c2987df4f44a340457bb"
+    ],
+    "postActions": [
+      "5b90be0bc2605ece2e9e4bba"
+    ],
+    "createdAt": 1536285861074
+  },
+  {
+    "_id": "5b91dcd5e93796309f8fa188",
+    "compositeId": "n8KfkzILHfSPEeLQ",
+    "path": null,
+    "name": "Wechat Get Started Global",
+    "tree": "5b91dc36065c0a08040faee4",
+    "app": "59bba4275a304100055da5bc",
+    "global": true,
+    "trigger": "5b91dc96e9379655f38fa186",
+    "redirect": {
+      "tree": "5b91dc36065c0a08040faee4",
+      "nodeCompositeId": "Q57MalrDXSQtqCkK",
+      "sendResponse": true,
+      "runPreAction": true,
+      "runPostAction": true
+    },
+    "createdAt": 1536285909944
+  },
+  {
+    "_id": "5b923824aa66ae1cce23735c",
+    "compositeId": "rE211MGgzbuHsNxX",
+    "tree": "5b91dc36065c0a08040faee4",
+    "path": ",Q57MalrDXSQtqCkK,",
+    "name": "Wechat Live Chat",
+    "app": "59bba4275a304100055da5bc",
+    "trigger": "5b9237ec0ffe38a03193a723",
+    "responses": [
+      "5b90dc22c108850cd41eca2e"
+    ],
+    "postActions": [
+      "5b92381aaa66ae831723735b"
+    ],
+    "createdAt": 1536309284824
+  },
+  {
+    "_id": "5b923f64cfc28c6bf3bc0c3f",
+    "compositeId": "Bm6p7INZxqOrVxMb",
+    "path": null,
+    "name": "Wechat Live Chat Global",
+    "tree": "5b91dc36065c0a08040faee4",
+    "app": "59bba4275a304100055da5bc",
+    "global": true,
+    "trigger": "5b9237ec0ffe38a03193a723",
+    "redirect": {
+      "tree": "5b91dc36065c0a08040faee4",
+      "nodeCompositeId": "rE211MGgzbuHsNxX",
+      "sendResponse": true,
+      "runPreAction": true,
+      "runPostAction": true
+    },
+    "createdAt": 1536311140258
+  },
+  {
+    "_id": "5ba251a7ca45b57cdc3b045b",
+    "compositeId": "9Pv2Sa1HJTbdLpkE",
+    "tree": "5b90bd6cc2605e36b79e4bb5",
+    "path": ",HxWmc9c0jJWpvaIe,",
+    "name": "Typing",
+    "app": "59bba4275a304100055da5bc",
+    "trigger": "5ba2518bca45b56bbc3b0459",
+    "responses": [
+      "5ba251a3ca45b589803b045a",
+      "5ba251a3ca45b589803b045a"
+    ],
+    "updatedAt": 1537364694099,
+    "analytics": {
+      "category": "Testing",
+      "action": "Typing",
+      "label": "",
+      "value": null
+    }
+  },
+  {
+    "_id": "5ba89c63b490e2eb5be1309b",
+    "compositeId": "3Jn4DtwzWjvpSXGa",
+    "tree": "5b90bd6cc2605e36b79e4bb5",
+    "path": ",HxWmc9c0jJWpvaIe,",
+    "name": "Hydrate",
+    "app": "59bba4275a304100055da5bc",
+    "trigger": "5ba89c34b490e20229e13099",
+    "responses": [
+      "5bf8eaa3a8b6625837285da6",
+      "5ba89db5b490e21831e1309d",
+      "5ba89fd275b285a051995888",
+      "5bf8eb2a8162f1a0bd745d5e"
+    ],
+    "updatedAt": 1537777637221,
+    "analytics": {
+      "category": "Testing 2",
+      "action": "hydrate",
+      "label": "",
+      "value": null
+    }
+  },
+  {
+    "_id": "5bd92f6bceccd598e2b12216",
+    "name": "Facebook Live Chat",
+    "app": "59bba4275a304100055da5bc",
+    "trigger": "5bd92f0bceccd51b55b12213",
+    "responses": [
+      "5bd92f19ceccd52994b12214"
+    ],
+    "postActions": [
+      "5bd92f58ceccd582dbb12215"
+    ],
+    "createdAt": 1536220418209,
+    "compositeId": "sxsT5ku7hyVE3piR",
+    "path": ",HxWmc9c0jJWpvaIe,",
+    "tree": "5b90bd6cc2605e36b79e4bb5",
+    "analytics": {
+      "category": "Testing 3",
+      "action": "live chat",
+      "label": "",
+      "value": null
+    },
+    "updatedAt": 1541670313245
+  },
+  {
+    "_id": "5bf8eb9b173143b61566c68c",
+    "compositeId": "vVSPhl7Qo9jiO4jb",
+    "tree": "5b90bd6cc2605e36b79e4bb5",
+    "path": ",HxWmc9c0jJWpvaIe,",
+    "name": "Testing",
+    "app": "59bba4275a304100055da5bc",
+    "responses": [
+      "5bf8eb9717314365ee66c68b",
+      "5bf8eb2a8162f1a0bd745d5e",
+      "5bf9748c61241c78d484f88f"
+    ],
+    "createdAt": 1543039899736,
+    "preActions": [
+      "5bf8ebdc8162f1770e745d5f"
+    ],
+    "updatedAt": 1543039969737
+  }
+]

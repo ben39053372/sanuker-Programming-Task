@@ -1,0 +1,77 @@
+[
+  {
+  "_id": "5b90be0bc2605ece2e9e4bba",
+  "app": "59bba4275a304100055da5bc",
+  "name": "Save CompositeId",
+  "functionString": "return new Promise((resolve) => {\n  this.member.botMeta.nodeCompositeId = this.node.compositeId\n  this.member.botMeta.tree = this.node.tree\n  resolve({\n    member: this.member,\n  })\n})",
+  "createdAt": 1536212491587
+  },
+  {
+  "_id": "5b90dceec10885ae9b1eca2f",
+  "app": "59bba4275a304100055da5bc",
+  "name": "Create Assignment: Testing",
+  "functionString": "return this.createAssignment({\n  member: this.member,\n  assignmentDetails: {\n    summary: \"Summary: Testing\",\n    groupName: `${this.member.firstName} ${this.member.lastName} - Live Chat Testing`,\n    relayMessage: {\n      teamwork: {\n        type: \"TEAMWORK_BUTTON\",\n        subject: `Live Chat Testing`,\n        excerpts: `${this.member.firstName} ${this.member.lastName}`,\n        buttons: [\n          {\n            actionType: \"textMsg\",\n            display: \"我來回覆\",\n            meta: {\n              payload: \"PICK_TICKET\"\n            }\n          },\n        ],\n      }\n    },\n    takenMessage: `${this.member.firstName} ${this.member.lastName} 已經被 [adminName] 取下了`,\n  },\n  label: \"TESTING\"\n})",
+  "description": "",
+  "createdAt": 1536220398108
+  },
+  {
+  "_id": "5b90df8b963e0770990f213c",
+  "app": "59bba4275a304100055da5bc",
+  "name": "Send end live chat message to inlet",
+  "functionString": "return this.sendMessageToInlet({\n  messageEvent: this.messageEvent,\n  channel: this.channel,\n  response: {\n    type: \"TEXT\",\n    text: \"多謝您的查詢，如需要任何協助，歡迎隨時聯絡我們。再見！\"\n  }\n})",
+  "createdAt": 1536221067481
+  },
+  {
+  "_id": "5b90df9a27dbc63f335ab68d",
+  "app": "59bba4275a304100055da5bc",
+  "name": "End live chat",
+  "functionString": "return this.endLiveChat({\n  messageEvent: this.messageEvent,\n  channel: this.channel\n})",
+  "createdAt": 1536221082994
+  },
+  {
+  "_id": "5b90dfc527dbc6360a5ab68e",
+  "app": "59bba4275a304100055da5bc",
+  "name": "Send Done Successful to Group",
+  "functionString": "return new Promise((resolve) => {\n  this.getGroupByExternalId({\n    adminExternalId: this.messageEvent.from,\n    groupId: this.messageEvent.to,\n    type: this.channel.type,\n    channelId: this.channel._id,\n  }).then((group) => {\n    this.sendMessageToOutletGroup({\n      group,\n      response: {\n        type: \"TEXT\",\n        text: \"您已經成功發送指令，結束對話，謝謝！\",\n      },\n    }).then(() => {\n      resolve()\n    })\n  })\n})",
+  "createdAt": 1536221125083
+  },
+  {
+  "_id": "5b90e74c95ec346dde779065",
+  "app": "59bba4275a304100055da5bc",
+  "name": "Send reassign message to inlet",
+  "functionString": "return this.sendMessageToInlet({\n  messageEvent: this.messageEvent,\n  channel: this.channel,\n  response: {\n    type: \"TEXT\",\n    text: \"reassigning, wait\"\n  }\n})",
+  "createdAt": 1536221067481
+  },
+  {
+  "_id": "5b90e79995ec344340779066",
+  "app": "59bba4275a304100055da5bc",
+  "name": "Reassign assignment",
+  "functionString": "return this.reassignAssignment({\n  messageEvent: this.messageEvent,\n  channel: this.channel,\n  label: \"TESTING\"\n})",
+  "createdAt": 1536221082994
+  },
+  {
+  "_id": "5b92381aaa66ae831723735b",
+  "app": "59bba4275a304100055da5bc",
+  "name": "Create Assignment: Wechat Testing",
+  "functionString": "return this.createAssignment({\n  member: this.member,\n  assignmentDetails: {\n    summary: \"Summary: Wechat Testing\",\n    groupName: `${this.member.firstName} - Wechat Live Chat Testing`,\n    relayMessage: {\n      teamwork: {\n        type: \"TEAMWORK_BUTTON\",\n        subject: `Wechat Live Chat Testing`,\n        excerpts: `${this.member.firstName}`,\n        buttons: [\n          {\n            actionType: \"textMsg\",\n            display: \"我來回覆\",\n            meta: {\n              payload: \"PICK_TICKET\"\n            }\n          },\n        ],\n      }\n    },\n    takenMessage: `${this.member.firstName} 已經被 [adminName] 取下了`,\n  },\n  label: \"TESTING\"\n})",
+  "description": "",
+  "createdAt": 1536220398108,
+  "updatedAt": 1536312935759
+  },
+  {
+  "_id": "5bd92f58ceccd582dbb12215",
+  "app": "59bba4275a304100055da5bc",
+  "name": "Pass Thread Control to Page Inbox",
+  "functionString": "return this.fbPassThreadControl({\n  member: this.member,\n  channel: this.channel\n})",
+  "description": "",
+  "createdAt": 1536220398108,
+  "updatedAt": 1540960105319
+  },
+  {
+  "_id": "5bf8ebdc8162f1770e745d5f",
+  "app": "59bba4275a304100055da5bc",
+  "name": "Save CompositeId as New",
+  "functionString": "return new Promise((resolve) => {\n  console.log(\"testing as new\")\n  this.member.botMeta.nodeCompositeId = this.node.compositeId\n  this.member.botMeta.tree = this.node.tree\n  resolve({\n    member: this.member,\n  })\n})",
+  "createdAt": 1536212491587
+  }
+  ]

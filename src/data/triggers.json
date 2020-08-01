@@ -1,0 +1,111 @@
+[
+  {
+  "_id": "5b90bdb9c2605e242b9e4bb8",
+  "app": "59bba4275a304100055da5bc",
+  "name": "GET_STARTED",
+  "conditions": [
+  "5b90bd9dc2605e38f59e4bb6",
+  "AND",
+  "5b90bdb7c2605eecc29e4bb7",
+  "OR",
+  [
+  "5b90df5227dbc64f525ab68a",
+  "AND",
+  "5ba321d02b2a2b61394336c0"
+  ]
+  ],
+  "createdAt": 1536212409655,
+  "updatedAt": 1537417683848
+  },
+  {
+  "_id": "5b90dc03c1088564051eca2d",
+  "app": "59bba4275a304100055da5bc",
+  "name": "LIVE_CHAT",
+  "conditions": [
+  "5b90bd9dc2605e38f59e4bb6",
+  "AND",
+  "5b90dc01c1088544ae1eca2c"
+  ],
+  "createdAt": 1536212409655
+  },
+  {
+  "_id": "5b90df6427dbc60d835ab68c",
+  "app": "59bba4275a304100055da5bc",
+  "name": "@bot done",
+  "conditions": [
+  "5b90df5227dbc64f525ab68a",
+  "AND",
+  "5b90df6127dbc694b15ab68b"
+  ],
+  "createdAt": 1536221028143
+  },
+  {
+  "_id": "5b90e71a95ec348e47779064",
+  "app": "59bba4275a304100055da5bc",
+  "name": "@bot reassign",
+  "conditions": [
+  "5b90df5227dbc64f525ab68a",
+  "AND",
+  "5b90e71595ec349033779063"
+  ],
+  "createdAt": 1536221028143
+  },
+  {
+  "_id": "5b91dc96e9379655f38fa186",
+  "app": "59bba4275a304100055da5bc",
+  "name": "Text: Hi",
+  "conditions": [
+  "5b90df5227dbc64f525ab68a",
+  "AND",
+  "5b91dc8fe937962c3b8fa185"
+  ],
+  "createdAt": 1536285846386
+  },
+  {
+  "_id": "5b9237ec0ffe38a03193a723",
+  "app": "59bba4275a304100055da5bc",
+  "name": "GREETINGS",
+  "conditions": [
+  "5b90bd9dc2605e38f59e4bb6",
+  "AND",
+  "5b9237eaaa66aec83323735a"
+  ],
+  "createdAt": 1536212409655,
+  "updatedAt": 1536311118562
+  },
+  {
+  "_id": "5ba2518bca45b56bbc3b0459",
+  "app": "59bba4275a304100055da5bc",
+  "name": "TYPING",
+  "conditions": [
+  "5b90bd9dc2605e38f59e4bb6",
+  "AND",
+  "5ba25188ca45b5668b3b0458"
+  ],
+  "createdAt": 1536212409655,
+  "updatedAt": 1536311118562
+  },
+  {
+  "_id": "5ba89c34b490e20229e13099",
+  "app": "59bba4275a304100055da5bc",
+  "name": "HYDRATE",
+  "conditions": [
+  "5b90bd9dc2605e38f59e4bb6",
+  "AND",
+  "5ba89c32b490e2f764e13098"
+  ],
+  "createdAt": 1536212409655,
+  "updatedAt": 1536311118562
+  },
+  {
+  "_id": "5bd92f0bceccd51b55b12213",
+  "app": "59bba4275a304100055da5bc",
+  "name": "FACEBOOK_LIVE_CHAT",
+  "conditions": [
+  "5b90bd9dc2605e38f59e4bb6",
+  "AND",
+  "5bd92f08ceccd5d536b12212"
+  ],
+  "createdAt": 1536212409655
+  }
+  ]

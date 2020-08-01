@@ -1,0 +1,111 @@
+[
+  {
+    "_id": "5b90bd9dc2605e38f59e4bb6",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Type Payload",
+    "functionString": "this.messageEvent.type === \"PAYLOAD\"",
+    "edited": true,
+    "createdAt": 1536212381648
+  },
+  {
+    "_id": "5b90bdb7c2605eecc29e4bb7",
+    "app": "59bba4275a304100055da5bc",
+    "name": "GET_STARTED",
+    "functionString": "this.messageEvent.data.payload === \"GET_STARTED\"",
+    "edited": true,
+    "createdAt": 1536212407267
+  },
+  {
+    "_id": "5b90dc01c1088544ae1eca2c",
+    "app": "59bba4275a304100055da5bc",
+    "name": "LIVE_CHAT",
+    "functionString": "this.messageEvent.data.payload === \"LIVE_CHAT\"",
+    "edited": true,
+    "createdAt": 1536212407267
+  },
+  {
+    "_id": "5b90df5227dbc64f525ab68a",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Type Text",
+    "functionString": "this.messageEvent.type === \"TEXT\"",
+    "edited": true,
+    "createdAt": 1536221010864
+  },
+  {
+    "_id": "5b90df6127dbc694b15ab68b",
+    "app": "59bba4275a304100055da5bc",
+    "name": "regex done",
+    "functionString": "/done/i.test(this.messageEvent.data.text)",
+    "edited": true,
+    "createdAt": 1536221025862
+  },
+  {
+    "_id": "5b90e71595ec349033779063",
+    "app": "59bba4275a304100055da5bc",
+    "name": "regex reassign",
+    "functionString": "/reassign/i.test(this.messageEvent.data.text)",
+    "edited": true,
+    "createdAt": 1536221025862
+  },
+  {
+    "_id": "5b91dc8fe937962c3b8fa185",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Text: Hi",
+    "functionString": "this.messageEvent.data.text === \"Hi\"",
+    "edited": true,
+    "createdAt": 1536285839963,
+    "updatedAt": 1536311469706
+  },
+  {
+    "_id": "5b9237eaaa66aec83323735a",
+    "app": "59bba4275a304100055da5bc",
+    "name": "GREETINGS",
+    "functionString": "this.messageEvent.data.payload.payload === \"GREETINGS\"",
+    "edited": true,
+    "createdAt": 1536212407267,
+    "updatedAt": 1536311116497
+  },
+  {
+    "_id": "5ba25188ca45b5668b3b0458",
+    "app": "59bba4275a304100055da5bc",
+    "name": "TYPING",
+    "functionString": "this.messageEvent.data.payload === \"TYPING\"",
+    "edited": true,
+    "createdAt": 1536212407267,
+    "updatedAt": 1536311116497
+  },
+  {
+    "_id": "5ba321d02b2a2b61394336c0",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Text: Get Started",
+    "functionString": "this.messageEvent.data.text === \"Get Started\"",
+    "edited": true,
+    "createdAt": 1536285839963,
+    "updatedAt": 1536311469706
+  },
+  {
+    "_id": "5ba89c32b490e2f764e13098",
+    "app": "59bba4275a304100055da5bc",
+    "name": "HYDRATE",
+    "functionString": "this.messageEvent.data.payload === \"HYDRATE\"",
+    "edited": true,
+    "createdAt": 1536212407267,
+    "updatedAt": 1536311116497
+  },
+  {
+    "_id": "5bd92f08ceccd5d536b12212",
+    "app": "59bba4275a304100055da5bc",
+    "name": "FACEBOOK_LIVE_CHAT",
+    "functionString": "this.messageEvent.data.payload === \"FACEBOOK_LIVE_CHAT\"",
+    "edited": true,
+    "createdAt": 1536212407267
+  },
+  {
+    "_id": "5bf975ca71c16fcfc208d7c9",
+    "app": "59bba4275a304100055da5bc",
+    "name": "New Condition 2",
+    "functionString": "false",
+    "edited": true,
+    "createdAt": 1543075274393
+  }
+]
