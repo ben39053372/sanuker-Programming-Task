@@ -11,27 +11,19 @@ const triggers = require('./data/triggers.json')
 
 
 const getNodesById = (id) => {
-  return node.find(obj => {
-    return obj["_id"] === id
-  })
+  return node.find(obj => obj["_id"] === id)
 }
 
 const getResponseById = (id) => {
-  return responses.find(obj => {
-    return obj["_id"] === id
-  })
+  return responses.find(obj => obj["_id"] === id)
 }
 
 const getActionsbyId = (id) => {
-  return actions.find(obj => {
-    return obj["_id"] === id
-  })
+  return actions.find(obj => obj["_id"] === id)
 }
 
 const getTriggerById = (id) => {
-  return triggers.find(obj => {
-    return obj["_id"] === id
-  })
+  return triggers.find(obj => obj["_id"] === id)
 }
 
 
@@ -66,6 +58,11 @@ const getHydratedNodeById = (id) => {
       let conditions = node.trigger.conditions
       node.trigger.conditions = mapCondition(conditions)
     }
+    console.log(node.responses)
+    if(node.responses) {
+      node.responses = node.responses.map(id => id = getResponseById(id))
+    }
+
   }
   return node
 }

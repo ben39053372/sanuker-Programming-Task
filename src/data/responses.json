@@ -1,789 +1,789 @@
 [
   {
-  "_id": "5b90c2987df4f44a340457bb",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Hello World",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "name": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "TEXT",
-  "text": "Hello World"
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1536213656362
+    "_id": "5b90c2987df4f44a340457bb",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Hello World",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "name": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "TEXT",
+                  "text": "Hello World"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1536213656362
   },
   {
-  "_id": "5b90c59af3eea203ff6a6ac8",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Buttons",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "BUTTON",
-  "text": "Select One",
-  "buttons": [
-  {
-  "type": "postback",
-  "title": "Live Chat",
-  "payload": "LIVE_CHAT"
+    "_id": "5b90c59af3eea203ff6a6ac8",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Buttons",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "BUTTON",
+                  "text": "Select One",
+                  "buttons": [
+                    {
+                      "type": "postback",
+                      "title": "Live Chat",
+                      "payload": "LIVE_CHAT"
+                    },
+                    {
+                      "type": "postback",
+                      "title": "Typing",
+                      "payload": "TYPING"
+                    },
+                    {
+                      "type": "postback",
+                      "title": "Hydrate",
+                      "payload": "HYDRATE"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1536214426005,
+    "updatedAt": 1536214483076
   },
   {
-  "type": "postback",
-  "title": "Typing",
-  "payload": "TYPING"
+    "_id": "5b90dc22c108850cd41eca2e",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Live Chat Text",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "TEXT",
+                  "text": "Wait for live chat"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1536220194558
   },
   {
-  "type": "postback",
-  "title": "Hydrate",
-  "payload": "HYDRATE"
-  }
-  ]
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1536214426005,
-  "updatedAt": 1536214483076
+    "_id": "5ba251a3ca45b589803b045a",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Typing",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "TYPING",
+                  "duration": 5
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1537364387529,
+    "updatedAt": 1537364645867
   },
   {
-  "_id": "5b90dc22c108850cd41eca2e",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Live Chat Text",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "TEXT",
-  "text": "Wait for live chat"
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1536220194558
+    "_id": "5ba322ecfcc98d0c15b6673d",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Quick Replies",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "QUICK_REPLIES",
+                  "text": "Select One",
+                  "quickReplies": [
+                    {
+                      "content_type": "text",
+                      "title": "Test 1",
+                      "payload": "TEST_1"
+                    },
+                    {
+                      "content_type": "text",
+                      "title": "Test 2",
+                      "payload": "TEST_2"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1536214426005,
+    "updatedAt": 1536214483076
   },
   {
-  "_id": "5ba251a3ca45b589803b045a",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Typing",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "TYPING",
-  "duration": 5
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1537364387529,
-  "updatedAt": 1537364645867
+    "_id": "5ba89c60b490e2de46e1309a",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Test hydrate",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "TEXT",
+                  "text": "Test hydrate, firstName: {{firstName}}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1537776736818
   },
   {
-  "_id": "5ba322ecfcc98d0c15b6673d",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Quick Replies",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "QUICK_REPLIES",
-  "text": "Select One",
-  "quickReplies": [
-  {
-  "content_type": "text",
-  "title": "Test 1",
-  "payload": "TEST_1"
+    "_id": "5ba89db5b490e21831e1309d",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Test Hydrate Quick Replies",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "QUICK_REPLIES",
+                  "text": "externalId: {{externalId}}",
+                  "quickReplies": [
+                    {
+                      "content_type": "text",
+                      "title": "{{profile.profile_pic}}",
+                      "payload": "TEST_1"
+                    },
+                    {
+                      "content_type": "text",
+                      "title": "{{botMeta.tempData.text}}",
+                      "payload": "TEST_2"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1536214426005,
+    "updatedAt": 1536214483076
   },
   {
-  "content_type": "text",
-  "title": "Test 2",
-  "payload": "TEST_2"
-  }
-  ]
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1536214426005,
-  "updatedAt": 1536214483076
+    "_id": "5ba89fd275b285a051995888",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Test hydrate carousel",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "CAROUSEL",
+                  "carousel": [
+                    {
+                      "image_url": "{{botMeta.tempData.url2}}",
+                      "title": "{{botMeta.tempData.title}}",
+                      "subtitle": "Astrology gives you a little guidance every day.",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "{{botMeta.tempData.button.title1}}",
+                          "url": "{{botMeta.tempData.button.url1}}"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "{{botMeta.tempData.button.title2}}",
+                          "url": "{{botMeta.tempData.button.url2}}"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "{{botMeta.tempData.url}}",
+                      "title": "學好廣東話 Cantonese Bot",
+                      "subtitle": "Learning Cantonese can be easy",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/learning-cantonese-bot-can-fun-easy/"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "Talk to Bot 🗣",
+                          "url": "https://m.me/459518097726007/"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/parent-daily-cover.png",
+                      "title": "輕鬆育兒小貼士 Parent Daily",
+                      "subtitle": "Subscribe for small parenting tips",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/%E4%B8%96%E4%B8%8A%E5%8F%AA%E6%9C%89%E7%88%B8%E5%AA%BD%E5%A5%BD%EF%BC%9A%E8%BC%95%E9%AC%86%E8%82%B2%E5%85%92%E5%B0%8F%E8%B2%BC%E5%A3%AB/"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "Talk to Bot 🗣",
+                          "url": "https://m.me/parentdaily/"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/beauty-cover.png",
+                      "title": "蘋蘋美妝 Beauty Bot",
+                      "subtitle": "Read hottest stories about makeup, lifestyle and food",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/%E7%BE%8E%E5%A5%B3%E7%9A%84%E6%96%B0%E9%96%A8%E8%9C%9C%EF%BC%9A%E8%98%8B%E8%98%8B%E5%85%AC%E4%B8%BB-%E8%AE%93%E4%BD%A0%E6%99%82%E5%88%BB%E6%8E%8C%E6%8F%A1%E5%A5%B3%E6%80%A7%E6%99%82%E5%B0%9A/"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "Talk to Bot 🗣",
+                          "url": "http://m.me/applesbeautyplatform/"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/lyricsly-cover.png",
+                      "title": "Lyricsly - Your Lyrics Search Bot",
+                      "subtitle": "Search lyrics by song titles, artists and any fragment of words you remember",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/share-your-feelings-lyricsly-with-our-lyrics-bot/"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "Talk to Bot 🗣",
+                          "url": "https://m.me/sharelyricsly/"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/atm-bot-cover.png",
+                      "title": "ATM Locator Bot",
+                      "subtitle": "Detect your location and find the nearest ATM",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/wheres-the-nearest-atm-sanuker-develops-an-online-atm-locator-bot/"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "Talk to Bot 🗣",
+                          "url": "http://m.me/atmnearby"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/pooh-bot-cover.png",
+                      "title": "Winnie the Pooh & Friends Bot",
+                      "subtitle": "Choose your favourite character and chat with him!",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/real-live-chat-with-winnie-the-pooh-and-friends/"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "Talk to Bot 🗣",
+                          "url": "http://m.me/poohnfriends"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/sanuker-bot-cover.png",
+                      "title": "Sanuker Bot",
+                      "subtitle": "It is the professional assistant of our company as well as the best discovery channel for all the tech-lovers.",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/sanuker-bot-marks-the-bright-start-of-our-dayday-bot-chatbot-campaign/"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1537777618646,
+    "updatedAt": 1537777631643
   },
   {
-  "_id": "5ba89c60b490e2de46e1309a",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Test hydrate",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "TEXT",
-  "text": "Test hydrate, firstName: {{firstName}}"
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1537776736818
+    "_id": "5bd1714ff6ab71d481727338",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Test hydrate as new",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "TEXT",
+                  "text": "Test hydrate, firstName: {{firstName}}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1537776736818
   },
   {
-  "_id": "5ba89db5b490e21831e1309d",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Test Hydrate Quick Replies",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "QUICK_REPLIES",
-  "text": "externalId: {{externalId}}",
-  "quickReplies": [
-  {
-  "content_type": "text",
-  "title": "{{profile.profile_pic}}",
-  "payload": "TEST_1"
+    "_id": "5bd92eccceccd5ec68b12210",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Buttons 2",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "BUTTON",
+                  "text": "Select One",
+                  "buttons": [
+                    {
+                      "type": "postback",
+                      "title": "Live Chat",
+                      "payload": "LIVE_CHAT"
+                    },
+                    {
+                      "type": "postback",
+                      "title": "Typing",
+                      "payload": "TYPING"
+                    },
+                    {
+                      "type": "postback",
+                      "title": "Hydrate",
+                      "payload": "HYDRATE"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1536214426005,
+    "updatedAt": 1536214483076
   },
   {
-  "content_type": "text",
-  "title": "{{botMeta.tempData.text}}",
-  "payload": "TEST_2"
-  }
-  ]
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1536214426005,
-  "updatedAt": 1536214483076
+    "_id": "5bd92eecceccd50216b12211",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Buttons 2",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "BUTTON",
+                  "text": "Select One",
+                  "buttons": [
+                    {
+                      "type": "postback",
+                      "title": "Facebook Live Chat",
+                      "payload": "FACEBOOK_LIVE_CHAT"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1536214426005,
+    "updatedAt": 1536214483076
   },
   {
-  "_id": "5ba89fd275b285a051995888",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Test hydrate carousel",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "CAROUSEL",
-  "carousel": [
-  {
-  "image_url": "{{botMeta.tempData.url2}}",
-  "title": "{{botMeta.tempData.title}}",
-  "subtitle": "Astrology gives you a little guidance every day.",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "{{botMeta.tempData.button.title1}}",
-  "url": "{{botMeta.tempData.button.url1}}"
+    "_id": "5bd92f19ceccd52994b12214",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Facebook Live Chat Text",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "TEXT",
+                  "text": "Wait for Facebook live chat"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1536220194558
   },
   {
-  "type": "web_url",
-  "title": "{{botMeta.tempData.button.title2}}",
-  "url": "{{botMeta.tempData.button.url2}}"
-  }
-  ]
+    "_id": "5bf8eaa3a8b6625837285da6",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Test save as new",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "TEXT",
+                  "text": "Test save as new, firstName: {{firstName}}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1537776736818
   },
   {
-  "image_url": "{{botMeta.tempData.url}}",
-  "title": "學好廣東話 Cantonese Bot",
-  "subtitle": "Learning Cantonese can be easy",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/learning-cantonese-bot-can-fun-easy/"
+    "_id": "5bf8eb2a8162f1a0bd745d5e",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Test hydrate carousel as new",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "CAROUSEL",
+                  "carousel": [
+                    {
+                      "image_url": "{{botMeta.tempData.url2}}",
+                      "title": "{{botMeta.tempData.title}}",
+                      "subtitle": "Astrology gives you a little guidance every day. as new",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "{{botMeta.tempData.button.title1}}",
+                          "url": "{{botMeta.tempData.button.url1}}"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "{{botMeta.tempData.button.title2}}",
+                          "url": "{{botMeta.tempData.button.url2}}"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "{{botMeta.tempData.url}}",
+                      "title": "學好廣東話 Cantonese Bot",
+                      "subtitle": "Learning Cantonese can be easy",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/learning-cantonese-bot-can-fun-easy/"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "Talk to Bot 🗣",
+                          "url": "https://m.me/459518097726007/"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/parent-daily-cover.png",
+                      "title": "輕鬆育兒小貼士 Parent Daily",
+                      "subtitle": "Subscribe for small parenting tips",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/%E4%B8%96%E4%B8%8A%E5%8F%AA%E6%9C%89%E7%88%B8%E5%AA%BD%E5%A5%BD%EF%BC%9A%E8%BC%95%E9%AC%86%E8%82%B2%E5%85%92%E5%B0%8F%E8%B2%BC%E5%A3%AB/"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "Talk to Bot 🗣",
+                          "url": "https://m.me/parentdaily/"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/beauty-cover.png",
+                      "title": "蘋蘋美妝 Beauty Bot",
+                      "subtitle": "Read hottest stories about makeup, lifestyle and food",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/%E7%BE%8E%E5%A5%B3%E7%9A%84%E6%96%B0%E9%96%A8%E8%9C%9C%EF%BC%9A%E8%98%8B%E8%98%8B%E5%85%AC%E4%B8%BB-%E8%AE%93%E4%BD%A0%E6%99%82%E5%88%BB%E6%8E%8C%E6%8F%A1%E5%A5%B3%E6%80%A7%E6%99%82%E5%B0%9A/"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "Talk to Bot 🗣",
+                          "url": "http://m.me/applesbeautyplatform/"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/lyricsly-cover.png",
+                      "title": "Lyricsly - Your Lyrics Search Bot",
+                      "subtitle": "Search lyrics by song titles, artists and any fragment of words you remember",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/share-your-feelings-lyricsly-with-our-lyrics-bot/"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "Talk to Bot 🗣",
+                          "url": "https://m.me/sharelyricsly/"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/atm-bot-cover.png",
+                      "title": "ATM Locator Bot",
+                      "subtitle": "Detect your location and find the nearest ATM",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/wheres-the-nearest-atm-sanuker-develops-an-online-atm-locator-bot/"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "Talk to Bot 🗣",
+                          "url": "http://m.me/atmnearby"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/pooh-bot-cover.png",
+                      "title": "Winnie the Pooh & Friends Bot",
+                      "subtitle": "Choose your favourite character and chat with him!",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/real-live-chat-with-winnie-the-pooh-and-friends/"
+                        },
+                        {
+                          "type": "web_url",
+                          "title": "Talk to Bot 🗣",
+                          "url": "http://m.me/poohnfriends"
+                        }
+                      ]
+                    },
+                    {
+                      "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/sanuker-bot-cover.png",
+                      "title": "Sanuker Bot",
+                      "subtitle": "It is the professional assistant of our company as well as the best discovery channel for all the tech-lovers.",
+                      "buttons": [
+                        {
+                          "type": "web_url",
+                          "title": "Read Blog 🤓",
+                          "url": "http://blog.sanuker.com/sanuker-bot-marks-the-bright-start-of-our-dayday-bot-chatbot-campaign/"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1537777618646,
+    "updatedAt": 1537777631643
   },
   {
-  "type": "web_url",
-  "title": "Talk to Bot 🗣",
-  "url": "https://m.me/459518097726007/"
-  }
-  ]
+    "_id": "5bf8eb9717314365ee66c68b",
+    "app": "59bba4275a304100055da5bc",
+    "name": "Test hydrate as new 2",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "TEXT",
+                  "text": "Test hydrate as new 2, firstName: {{firstName}}"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1537776736818
   },
   {
-  "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/parent-daily-cover.png",
-  "title": "輕鬆育兒小貼士 Parent Daily",
-  "subtitle": "Subscribe for small parenting tips",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/%E4%B8%96%E4%B8%8A%E5%8F%AA%E6%9C%89%E7%88%B8%E5%AA%BD%E5%A5%BD%EF%BC%9A%E8%BC%95%E9%AC%86%E8%82%B2%E5%85%92%E5%B0%8F%E8%B2%BC%E5%A3%AB/"
+    "_id": "5bf9748c61241c78d484f88f",
+    "app": "59bba4275a304100055da5bc",
+    "name": "New Response 2",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "TEXT"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1543074956991
   },
   {
-  "type": "web_url",
-  "title": "Talk to Bot 🗣",
-  "url": "https://m.me/parentdaily/"
-  }
-  ]
+    "_id": "5bf9750874427867b4a6751e",
+    "app": "59bba4275a304100055da5bc",
+    "name": "New Response 3",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "TEXT",
+                  "text": "response 3"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1543074956991
   },
   {
-  "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/beauty-cover.png",
-  "title": "蘋蘋美妝 Beauty Bot",
-  "subtitle": "Read hottest stories about makeup, lifestyle and food",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/%E7%BE%8E%E5%A5%B3%E7%9A%84%E6%96%B0%E9%96%A8%E8%9C%9C%EF%BC%9A%E8%98%8B%E8%98%8B%E5%85%AC%E4%B8%BB-%E8%AE%93%E4%BD%A0%E6%99%82%E5%88%BB%E6%8E%8C%E6%8F%A1%E5%A5%B3%E6%80%A7%E6%99%82%E5%B0%9A/"
-  },
-  {
-  "type": "web_url",
-  "title": "Talk to Bot 🗣",
-  "url": "http://m.me/applesbeautyplatform/"
+    "_id": "5bf975097442783beaa6751f",
+    "app": "59bba4275a304100055da5bc",
+    "name": "New Response 3",
+    "localeGroups": [
+      {
+        "localeGroup": "default",
+        "variations": [
+          {
+            "name": "Standard",
+            "platforms": [
+              {
+                "platform": "generic",
+                "response": {
+                  "type": "TEXT",
+                  "text": "response 3"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": 1543074956991
   }
-  ]
-  },
-  {
-  "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/lyricsly-cover.png",
-  "title": "Lyricsly - Your Lyrics Search Bot",
-  "subtitle": "Search lyrics by song titles, artists and any fragment of words you remember",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/share-your-feelings-lyricsly-with-our-lyrics-bot/"
-  },
-  {
-  "type": "web_url",
-  "title": "Talk to Bot 🗣",
-  "url": "https://m.me/sharelyricsly/"
-  }
-  ]
-  },
-  {
-  "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/atm-bot-cover.png",
-  "title": "ATM Locator Bot",
-  "subtitle": "Detect your location and find the nearest ATM",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/wheres-the-nearest-atm-sanuker-develops-an-online-atm-locator-bot/"
-  },
-  {
-  "type": "web_url",
-  "title": "Talk to Bot 🗣",
-  "url": "http://m.me/atmnearby"
-  }
-  ]
-  },
-  {
-  "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/pooh-bot-cover.png",
-  "title": "Winnie the Pooh & Friends Bot",
-  "subtitle": "Choose your favourite character and chat with him!",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/real-live-chat-with-winnie-the-pooh-and-friends/"
-  },
-  {
-  "type": "web_url",
-  "title": "Talk to Bot 🗣",
-  "url": "http://m.me/poohnfriends"
-  }
-  ]
-  },
-  {
-  "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/sanuker-bot-cover.png",
-  "title": "Sanuker Bot",
-  "subtitle": "It is the professional assistant of our company as well as the best discovery channel for all the tech-lovers.",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/sanuker-bot-marks-the-bright-start-of-our-dayday-bot-chatbot-campaign/"
-  }
-  ]
-  }
-  ]
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1537777618646,
-  "updatedAt": 1537777631643
-  },
-  {
-  "_id": "5bd1714ff6ab71d481727338",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Test hydrate as new",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "TEXT",
-  "text": "Test hydrate, firstName: {{firstName}}"
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1537776736818
-  },
-  {
-  "_id": "5bd92eccceccd5ec68b12210",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Buttons 2",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "BUTTON",
-  "text": "Select One",
-  "buttons": [
-  {
-  "type": "postback",
-  "title": "Live Chat",
-  "payload": "LIVE_CHAT"
-  },
-  {
-  "type": "postback",
-  "title": "Typing",
-  "payload": "TYPING"
-  },
-  {
-  "type": "postback",
-  "title": "Hydrate",
-  "payload": "HYDRATE"
-  }
-  ]
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1536214426005,
-  "updatedAt": 1536214483076
-  },
-  {
-  "_id": "5bd92eecceccd50216b12211",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Buttons 2",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "BUTTON",
-  "text": "Select One",
-  "buttons": [
-  {
-  "type": "postback",
-  "title": "Facebook Live Chat",
-  "payload": "FACEBOOK_LIVE_CHAT"
-  }
-  ]
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1536214426005,
-  "updatedAt": 1536214483076
-  },
-  {
-  "_id": "5bd92f19ceccd52994b12214",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Facebook Live Chat Text",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "TEXT",
-  "text": "Wait for Facebook live chat"
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1536220194558
-  },
-  {
-  "_id": "5bf8eaa3a8b6625837285da6",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Test save as new",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "TEXT",
-  "text": "Test save as new, firstName: {{firstName}}"
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1537776736818
-  },
-  {
-  "_id": "5bf8eb2a8162f1a0bd745d5e",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Test hydrate carousel as new",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "CAROUSEL",
-  "carousel": [
-  {
-  "image_url": "{{botMeta.tempData.url2}}",
-  "title": "{{botMeta.tempData.title}}",
-  "subtitle": "Astrology gives you a little guidance every day. as new",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "{{botMeta.tempData.button.title1}}",
-  "url": "{{botMeta.tempData.button.url1}}"
-  },
-  {
-  "type": "web_url",
-  "title": "{{botMeta.tempData.button.title2}}",
-  "url": "{{botMeta.tempData.button.url2}}"
-  }
-  ]
-  },
-  {
-  "image_url": "{{botMeta.tempData.url}}",
-  "title": "學好廣東話 Cantonese Bot",
-  "subtitle": "Learning Cantonese can be easy",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/learning-cantonese-bot-can-fun-easy/"
-  },
-  {
-  "type": "web_url",
-  "title": "Talk to Bot 🗣",
-  "url": "https://m.me/459518097726007/"
-  }
-  ]
-  },
-  {
-  "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/parent-daily-cover.png",
-  "title": "輕鬆育兒小貼士 Parent Daily",
-  "subtitle": "Subscribe for small parenting tips",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/%E4%B8%96%E4%B8%8A%E5%8F%AA%E6%9C%89%E7%88%B8%E5%AA%BD%E5%A5%BD%EF%BC%9A%E8%BC%95%E9%AC%86%E8%82%B2%E5%85%92%E5%B0%8F%E8%B2%BC%E5%A3%AB/"
-  },
-  {
-  "type": "web_url",
-  "title": "Talk to Bot 🗣",
-  "url": "https://m.me/parentdaily/"
-  }
-  ]
-  },
-  {
-  "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/beauty-cover.png",
-  "title": "蘋蘋美妝 Beauty Bot",
-  "subtitle": "Read hottest stories about makeup, lifestyle and food",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/%E7%BE%8E%E5%A5%B3%E7%9A%84%E6%96%B0%E9%96%A8%E8%9C%9C%EF%BC%9A%E8%98%8B%E8%98%8B%E5%85%AC%E4%B8%BB-%E8%AE%93%E4%BD%A0%E6%99%82%E5%88%BB%E6%8E%8C%E6%8F%A1%E5%A5%B3%E6%80%A7%E6%99%82%E5%B0%9A/"
-  },
-  {
-  "type": "web_url",
-  "title": "Talk to Bot 🗣",
-  "url": "http://m.me/applesbeautyplatform/"
-  }
-  ]
-  },
-  {
-  "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/lyricsly-cover.png",
-  "title": "Lyricsly - Your Lyrics Search Bot",
-  "subtitle": "Search lyrics by song titles, artists and any fragment of words you remember",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/share-your-feelings-lyricsly-with-our-lyrics-bot/"
-  },
-  {
-  "type": "web_url",
-  "title": "Talk to Bot 🗣",
-  "url": "https://m.me/sharelyricsly/"
-  }
-  ]
-  },
-  {
-  "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/atm-bot-cover.png",
-  "title": "ATM Locator Bot",
-  "subtitle": "Detect your location and find the nearest ATM",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/wheres-the-nearest-atm-sanuker-develops-an-online-atm-locator-bot/"
-  },
-  {
-  "type": "web_url",
-  "title": "Talk to Bot 🗣",
-  "url": "http://m.me/atmnearby"
-  }
-  ]
-  },
-  {
-  "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/pooh-bot-cover.png",
-  "title": "Winnie the Pooh & Friends Bot",
-  "subtitle": "Choose your favourite character and chat with him!",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/real-live-chat-with-winnie-the-pooh-and-friends/"
-  },
-  {
-  "type": "web_url",
-  "title": "Talk to Bot 🗣",
-  "url": "http://m.me/poohnfriends"
-  }
-  ]
-  },
-  {
-  "image_url": "https://s3-ap-southeast-1.amazonaws.com/daydaybot-sanuker/sanuker-bot/image/sanuker-bot-cover.png",
-  "title": "Sanuker Bot",
-  "subtitle": "It is the professional assistant of our company as well as the best discovery channel for all the tech-lovers.",
-  "buttons": [
-  {
-  "type": "web_url",
-  "title": "Read Blog 🤓",
-  "url": "http://blog.sanuker.com/sanuker-bot-marks-the-bright-start-of-our-dayday-bot-chatbot-campaign/"
-  }
-  ]
-  }
-  ]
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1537777618646,
-  "updatedAt": 1537777631643
-  },
-  {
-  "_id": "5bf8eb9717314365ee66c68b",
-  "app": "59bba4275a304100055da5bc",
-  "name": "Test hydrate as new 2",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "TEXT",
-  "text": "Test hydrate as new 2, firstName: {{firstName}}"
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1537776736818
-  },
-  {
-  "_id": "5bf9748c61241c78d484f88f",
-  "app": "59bba4275a304100055da5bc",
-  "name": "New Response 2",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "TEXT"
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1543074956991
-  },
-  {
-  "_id": "5bf9750874427867b4a6751e",
-  "app": "59bba4275a304100055da5bc",
-  "name": "New Response 3",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "TEXT",
-  "text": "response 3"
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1543074956991
-  },
-  {
-  "_id": "5bf975097442783beaa6751f",
-  "app": "59bba4275a304100055da5bc",
-  "name": "New Response 3",
-  "localeGroups": [
-  {
-  "localeGroup": "default",
-  "variations": [
-  {
-  "name": "Standard",
-  "platforms": [
-  {
-  "platform": "generic",
-  "response": {
-  "type": "TEXT",
-  "text": "response 3"
-  }
-  }
-  ]
-  }
-  ]
-  }
-  ],
-  "createdAt": 1543074956991
-  }
-  ]
+]
